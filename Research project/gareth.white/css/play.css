@@ -1,0 +1,40 @@
+body {
+    background-color:#669933;
+}
+
+h1 {
+    color:#336600;    
+}
+
+h2 {
+    color:#669900;  
+    left
+}
+
+nav li {
+    margin:0px 10px 10px 10px;
+    display:inline-block;
+    
+}
+header {
+    margin:0 auto;
+    width:600px;
+    text-align:center;
+}
+
+#wireframe {
+	margin-left:70px;
+}
+
+section {
+    margin:0 auto;
+    width:600px;
+    background-color:#FFFFFF;
+    opacity:50;
+    border-radius:30px;
+    padding:20px;
+}
+
+.content {
+    margin:0 auto;
+}

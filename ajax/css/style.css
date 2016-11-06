@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body {
+	margin:40px auto;
+	font-family:tahoma;
+	font-size:10pt;
+	width:900px;
+	background-color:#CCC;
+}	
+f orm{
+	font-size:90%;
+	padding:15px;
+	width:70%;
+	color:black;
+	border:1px solid #cc0000;
+	background-color:#d2d8d2;
+	margin:50px auto;
+}
+input {
+	text-align:left;
+	color:#000000;
+	width:100%;
+} 
+.clear {
+	clear:both;
+	height:10px;
+}
+.col1,.col2,.col3,.col3b{
+	display:inline;
+	/* position:relative; */
+	float:left;
+	/* margin-left:2%; */
+}
+.col1 {
+	width:130px;
+}
+.col2 {
+	width:170px;
+}
+.col3 {
+    padding-left: 10px;
+	color:red;
+	font-size: x-small;
+}
+.col3b {
+	width:200px;
+ 	clear:right; 
+}
+.colhdr{
+	font-weight:bold;
+	padding-bottom:30px;
+	position:relative;
+}
+.row {
+	clear:left;
+} 
+.submit{
+	margin-left:150px;
+}
+.center{
+	display:block;
+	margin: 10px auto;
+}
+.errmsg {
+	color:red;
+	font-size: x-small;
+}
+.left {
+	float:left;
+	clear: both;
+	width: 45%;
+}
+.right {
+	float:left;
+}	

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script type="text/javascript">
+/*document.getElementById('save').click( function() {
+	localStorage.visitor = document.getElementById('name').value;
+	document.getElementById('visitor').innerHTML = localStorage.visitor;
+	document.getElementById('name').hidden = true;
+	document.getElementById('button').hidden = true;
+} ()); */
+if (localStorage.visitor) {
+//	document.getElementById('visitor').innerHTML = localStorage.visitor;
+	 if (confirm("Last Visitor: " + localStorage.visitor + "\n" + "Change Name?")) {
+		newVisitor = prompt("New name: "); 
+		localStorage.visitor = newVisitor;
+//		document.getElementById('visitor').innerHTML = localStorage.visitor;
+	 }
+}
+else {
+	newVisitor = prompt("New name: "); 
+		localStorage.visitor = newVisitor;
+//		document.getElementById('visitor').innerHTML = localStorage.visitor;
+	
+}
+if (localStorage.pagecount)
+	{
+	localStorage.pagecount=Number(localStorage.pagecount) +1;
+	}
+else
+	{
+	localStorage.pagecount=1;
+	}	
+//document.getElementById('visit').innerHTML = localStorage.pagecount;	
+document.write("Total Site Visits: " + localStorage.pagecount + " time(s).<br />");
+document.write("Last Visitor: " + localStorage.visitor);
+</script> 
+
+</body>
+</html>
+

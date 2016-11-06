@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+window.onload = function() {
+	var drawingCanvas = document.getElementById('myDrawing');
+
+// Check the element is in the DOM and the browser supports canvas
+	if(drawingCanvas.getContext) {
+    // Initaliase a 2-dimensional drawing context
+		var context = drawingCanvas.getContext('2d');
+
+	   // Create the yellow face
+		context.strokeStyle = "#000000";
+		context.fillStyle = "#FFFF00";
+		context.beginPath();
+		context.arc(100,100,50,0,Math.PI*2,true);
+		context.closePath();
+		context.stroke();
+		context.fill();
+		
+		context.fillStyle = "#FF0000";
+		context.fillRect(70,70,60,60);
+
+		context.fillStyle = "#000000";
+		context.beginPath();
+		context.moveTo(80,100);
+		context.lineTo(100,80);
+		context.lineTo(120,100);
+		context.lineTo(100,120);
+		context.closePath();
+		context.fill();
+
+
+	}
+}
+
+
+</script>
+</head>
+<body>
+<canvas id="myDrawing" width="200" height="200">
+<p>Your browser doesn't support canvas.</p>
+</canvas>
+</body>
+</html>

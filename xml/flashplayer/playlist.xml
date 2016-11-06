@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<playlist>
+	<item>
+		<title>Metal Latch</title>
+		<artist>Unknown</artist>
+		<path>MetalLatch01.mp3</path>
+	</item>
+	<item>
+		<title>Test Track 2</title>
+		<artist>Artist Name</artist>
+		<path>song.mp3</path>
+	</item>
+	<item>
+		<title>Something in the Way She Moves</title>
+		<artist>James Taylor</artist>
+		<path>something_cleve.mp3</path>
+	</item>
+</playlist>

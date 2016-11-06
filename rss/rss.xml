@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample RSS 2.0 Feeds</title>
+    <link>http://example.com</link>
+    <description>Sample RSS 2.0 Feeds</description>
+    <item>
+      <title>GeekZone</title>
+      <link>http://feeds.feedburner.com/geekzone</link>
+      <description>GeekZone: IT, mobility, wireless and handheld news</description>
+    </item>
+    <item>
+      <title>Technozone</title>
+      <link>http://feeds.feedburner.com/technozone</link>
+      <description>A network of feeds from IT news and technology bloggers</description>
+    </item>
+    <item>
+      <title>Yahoo! Movies</title>
+      <link>http://rss.ent.yahoo.com/movies/thisweek.xml</link>
+      <description>GeekZone: IT, mobility, wireless and handheld news</description>
+    </item>
+  </channel>
+</rss>

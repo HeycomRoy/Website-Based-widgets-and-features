@@ -1,0 +1,1 @@
+http://maps.google.com/maps/geo?q=20+Kent+Terrace,+Wellington,+New+Zealand&output=json&oe=utf8&sensor=false&key=abcdefg

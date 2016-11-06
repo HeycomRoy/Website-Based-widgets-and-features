@@ -1,0 +1,2 @@
+PxPay_Userid: Natcoll_Dev
+PxPay_Key   : fb9f7649ebcdcca74f427183b37c6c5fca3db775e1e04e09eadc612ac786c420

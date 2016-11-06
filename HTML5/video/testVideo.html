@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<style>
+#clip {
+	width:400px;	
+}	
+</style>
+<script>
+(function() {
+
+	// run init() when page loads
+	if (window.addEventListener) {
+		window.addEventListener('load', init, false);
+	} else if (window.attachEvent) {
+		window.attachEvent('onload', init);
+	}
+} )();	
+
+function init() {
+		// when page loads:
+	
+clip = document.querySelector('#clip');
+videoPlayButton = document.querySelector('#play_button');
+videoPauseButton = document.querySelector('#pause_button');
+clip.addEventListener('ended', OnFinished, false);
+
+}
+
+function SelectVideo(videoFile) {
+   clip.src = videoFile;
+   clip.load();
+   videoPlayButton.disabled = false;
+   videoPauseButton.disabled = true;   
+}
+            
+function PlayVideo() {
+    clip.play();
+    videoPlayButton.disabled = true;
+    videoPauseButton.disabled = false;      
+}
+
+function PauseVideo() {
+    clip.pause();
+    videoPlayButton.disabled = false;
+    videoPauseButton.disabled = true;      
+}
+
+function OnFinished() {
+ 	videoPlayButton.disabled = false;
+    videoPauseButton.disabled = true;         
+}
+
+</script> 
+
+<div id="videoHolder">
+	<video id="clip" controls="controls">
+	your browser does not support the video tag
+	</video>
+</div>	
+<div>
+     <input type=button id="play_button" onclick="PlayVideo()"; value="Play" />
+     <input type=button id="pause_button" onclick="PauseVideo()"; value="Pause" disabled />    
+     <input type=button id="mute" onclick="Mute()" value="Mute" />
+     <input type=button id="unmute" onclick="Unmute()" value="Unmute" />
+</div>  
+<div>
+    <form name="video_form">
+    	<select name="video_select" onchange="SelectVideo(this.value);">
+        	<option>Select video to play...</option>      
+        	<option value="movie.ogg">Bear in the Water (ogg)</option>      
+        	<option value="Fire_720p.mp4">Girl watching Fire (mp4)</option>  
+        	<option value="cocaineAd.f4v">Cocaine Ad (f4v)</option>  
+    	</select> 
+    </form>
+</div> 
+              
+</body>
+</html>

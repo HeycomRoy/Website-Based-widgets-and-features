@@ -1,0 +1,12 @@
+http://adactio.com/extras/pocketbooks/html5/
+http://www.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
+http://seogadget.co.uk/html5-examples-in-the-wild/
+
+
+Blowing up HTML5 video and mapping it into 3D space
+http://www.craftymind.com/2010/04/20/blowing-up-html5-video-and-mapping-it-into-3d-space/
+
+Forms
+http://24ways.org/2009/have-a-field-day-with-html5-forms
+
+

@@ -1,0 +1,4 @@
+added features:
+* google map
+* openwysiwyg
+* captcha

@@ -1,0 +1,20 @@
+border-radius	Opera 10.5, Internet Explorer 9, Safari 5, Chrome 4, Firefox 4
+-webkit-border-radius	Safari 3, Chrome 0.2
+-moz-border-radius	Firefox 1
+
+border-top-left-radius	Opera 10.5, Safari 5, Chrome 4, Firefox 4
+-webkit-border-top-left-radius	Safari 3, Chrome 0.2
+-moz-border-radius-topleft	Firefox 1
+
+border-image	Opera 10.5
+-webkit-border-image	Safari 3
+-moz-border-image	Firefox 3.5
+
+-webkit-transform	Safari 3.1
+-moz-transform	Firefox 3.5
+-o-transform	Opera 10.5
+
+background-size	Firefox 4.0
+-webkit-background-size	Safari 3
+-moz-background-size	Firefox 3.6
+-o-background-size	Opera 9.5

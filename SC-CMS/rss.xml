@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>The Stuff Shoppe RSS Feeds</title>
+    <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS</link>
+    <description>The Stuff Shoppe Products</description>
+    <item>
+      <title>Sheep Key Ring - with Pink Ribbon</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=1</link>
+      <description>Sheep Key Ring - white with pink bow tie</description>
+    </item>
+    <item>
+      <title>Cute Kiwi - with brown scarf</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=2</link>
+      <description>A cute KIWI,must for those soft people out there</description>
+    </item>
+    <item>
+      <title>NZ Sheep- White with black bow tie</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=3</link>
+      <description>New Zealand Ru Sheep - White color with black bow tie</description>
+    </item>
+    <item>
+      <title>Sheep Key Ring - white with green bow tie</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=4</link>
+      <description>Sheep Key Ring - white with green bow tie</description>
+    </item>
+    <item>
+      <title>test</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=50</link>
+      <description>test</description>
+    </item>
+    <item>
+      <title>again</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=44</link>
+      <description>again</description>
+    </item>
+    <item>
+      <title>fghgf</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=43</link>
+      <description>fghfg</description>
+    </item>
+    <item>
+      <title>changed title</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=37</link>
+      <description>changed dec</description>
+    </item>
+    <item>
+      <title>one more test</title>
+      <link>http://localhost/xampp/luisad/10wdwe02/assd/SC-CMS/index.php?pageID=productView&amp;PID=42</link>
+      <description>one more test</description>
+    </item>
+  </channel>
+</rss>
